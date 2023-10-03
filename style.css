@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+        background-color: white;
+        display: grid;
+        grid-template-areas: 
+            "cab cab cab"
+            "sec pri pri"
+            "rod rod rod";
+        grid-gap: 5px;
+        grid-template-columns: 400px auto auto;
+        grid-template-rows: 200px auto 200px;
+        font-family: sans-serif;
+        background: rgb(185,206,172);
+        background: linear-gradient(90deg, rgba(185,206,172,1) 0%, rgba(107,157,107,1) 52%, rgba(31,105,31,1) 100%);
+        background-repeat: no-repeat;
+        background-size: cover;  
+}             
+header{
+    grid-area: cab;
+    top: 0;
+}
+aside{
+    grid-area: sec;
+}
+main{
+    grid-area: pri;
+}
+footer{
+    grid-area: rod;
+}
+header, footer{
+    background-color: rgb(97, 122, 82);
+    height: 100%;
+    width: 100%;
+}
+
+aside, main{
+    background-color: rgb(185, 206, 172);
+}
