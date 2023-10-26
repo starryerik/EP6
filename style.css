@@ -1,18 +1,23 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
 header{
     grid-area: cabe;
-    background-color: blue;
+    background-color: #b1fdb6;
 }
 aside{
     grid-area: brac;
-    background-color: green;
+    background-color: #9fe4a4;
 }
 main{
     grid-area: prin;
-    background-color: red;
+    background-color: #c8fecc;
+    position: relative;
 }
 footer{
     grid-area: roda;
-    background-color: black;
+    background-color: #7cb17f;
 }
 section{
     grid-area: secn;

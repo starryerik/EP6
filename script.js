@@ -25,8 +25,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_1").innerHTML = "Errada, pois o tempo e a taxa estão em unidades de medida diferentes. Vamos transformar a taxa de 30% ao ano para uma taxa mensal. Como o ano possui 12 meses, então 30% : 12 = 2,5%.
-            "
+            document.getElementById("resp_errada_1").innerHTML = "Errada, pois o tempo e a taxa estão em unidades de medida diferentes. Vamos transformar a taxa de 30% ao ano para uma taxa mensal. Como o ano possui 12 meses, então 30% : 12 = 2,5%. <br> "
 
         }
         if(resp2.value == "correta"){
@@ -50,7 +49,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_4").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_4").innerHTML = "Errada, pois <img src='imagens/calculo.png'>"
 
         }
         document.getElementById("quantos_acertos").innerHTML = "Você acertou " + contador + " questões!";
