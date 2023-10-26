@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática Financeira - Questionário</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="imagens/ticotico.png" type="image/x-icon">
+    </head>
+    <body onload='inclui_nome()'>
+
+        <script src="script.js"></script>
+
+<p id='marcacao_nome'></p>
+
+        <form>
+            <h4>Num balancete de uma empresa consta que certo capital foi aplicado a uma taxa de 30% ao ano 
+                durante 8 meses, rendendo juros simples no valor de R$ 192,00. O capital aplicado foi de:
+            </h4>
+            <input type="radio" name="quest_1" value="errada">A) R$ 288,00.<br>
+            <input type="radio" name="quest_1" value="errada">B) R$ 880,00.<br>
+            <input type="radio" name="quest_1" value="correta">C) R$ 960,00.<br>
+            <input type="radio" name="quest_1" value="errada">D) R$ 2.880,00.<br>
+            <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+    
+            <h4>Ao completar seus 18 anos e adquirir sua independência financeira, 
+                João decidiu alugar um imóvel. Uma prática bastante comum para o aluguel de imóveis é o uso do devedor 
+                solidário ou então o pagamento de um cheque caução. Ambas as opções são para resguardar quem está alugando o
+                imóvel. A primeira delas consiste em uma terceira pessoa se responsabilizar pelas dívidas caso o locatário 
+                não pague. A segunda é o pagamento, por parte do locatário, de um valor, que fica na conta do locador até o término 
+                do contrato. Ao final, esse valor é devolvido para o locatário.<br>
+                <br>
+            
+                Como não havia ninguém disposto a ser devedor solidário, João optou pela segunda opção, pegando dinheiro emprestado com o seu irmão, José. 
+                O empréstimo foi de R$ 3.000,00 e, para que José não ficasse em desvantagem, ele propôs para o seu irmão que
+                 o pagasse com juros simples de 1% a.m. Se, ao final de 1 ano, João pagar a sua dívida com o seu irmão, 
+                 o valor pago por ele será de:</h4>
+            <input type="radio" name="quest_2" value="errada">A) R$ 3600,00.<br>
+            <input type="radio" name="quest_2" value="correta">B) R$ 3360,00.<br>
+            <input type="radio" name="quest_2" value="errada">C) R$ 3660,00.<br>
+            <input type="radio" name="quest_2" value="errada">D) R$ 3930,00. <br>
+            <input type="radio" name="quest_2" value="errada">E) R$ 3036,00.<br>
+            <p id="resp_correta_2" class="verde"></p><p id="resp_errada_2" class="vermelho"></p>
+    
+            <h4>Questão 3</h4>
+            <input type="radio" name="quest_3" value="correta">Resposta 1 <br>
+            <input type="radio" name="quest_3" value="errada">Resposta 1 <br>
+            <input type="radio" name="quest_3" value="errada">Resposta 1 <br>
+            <input type="radio" name="quest_3" value="errada">Resposta 1 <br>
+            <p id="resp_correta_3" class="verde"></p><p id="resp_errada_3" class="vermelho"></p><br>
+    
+            <h4>Questão 4</h4>
+            <input type="radio" name="quest_4" value="correta">Resposta 1 <br>
+            <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+            <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+            <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+            <p id="resp_correta_4" class="verde"></p><p id="resp_errada_4" class="vermelho"></p>
+    
+            <p id="quantos_acertos"></p>
+                <button type="button" onclick="funcao_resposta()">Responder</button>
+        </form>
+
+    </body>
+</html>
