@@ -1,3 +1,22 @@
+function calcular_palhaco() {
+    var a = valor_a.value;
+    var b = valor_b.value;
+    var x = valor_x.value;
+    var calculo = -b/a;
+
+    if(a ==0){
+        alert("a deve ser diferente de zero")
+    }
+    else{
+        if(x == calculo){
+            alert("correto");
+        }
+        else{
+            alert("errado")
+        }
+    }
+    
+}   
 function inclui_nome() {
     var nome_variavel = prompt("Coloque seu nome:");
     if(nome_variavel){
