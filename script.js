@@ -1,18 +1,19 @@
 function calcular_palhaco() {
-    var a = valor_a.value;
-    var b = valor_b.value;
-    var x = valor_x.value;
-    var calculo = -b/a;
+    var c = valor_c.value;
+    var i = valor_i.value;
+    var t = valor_t.value;
+    var j = valor_J.value;
+    var calculo = c*i*t;
 
-    if(a ==0){
-        alert("a deve ser diferente de zero")
+    if(c == 0 || i == 0 || t == 0 || j == 0 ){
+        alert("não deixe campos em branco")
     }
     else{
-        if(x == calculo){
+        if(j == calculo){
             alert("correto");
         }
         else{
-            alert("errado")
+            alert("Errado, tente novamente.")
         }
     }
     
