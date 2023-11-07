@@ -1,13 +1,42 @@
 body{
     font-family: 'Lato', sans-serif;
 }
-
+/* HTML HEADER */
 header{
     grid-area: cabe;
     background-color: #b1fdb6;
     border-radius: 4px;
     margin: 4px;
 }
+
+.container{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.logoindex{
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+}
+
+.titulo{
+    font-size: 45px;
+    float: left;
+    padding-left: 30px;
+    color: #70a172;
+    position: absolute;
+}
+
+.insiranome{
+    float: left;
+    color: #70a172;
+    display: flex;
+    position: relative;
+}
+
+/* FIM HTML HEADER */
 aside{
     grid-area: brac;
     background-color: #9fe4a4;
@@ -55,6 +84,10 @@ p{
 a{
     text-decoration: none;
     color: white;
+}
+
+h1, h2, h3{
+    text-align: center;
 }
 
 button{
