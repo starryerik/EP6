@@ -5,19 +5,28 @@ body{
 header{
     grid-area: cabe;
     background-color: #b1fdb6;
+    border-radius: 4px;
+    margin: 4px;
 }
 aside{
     grid-area: brac;
     background-color: #9fe4a4;
+    border-radius: 4px;
+    margin: 4px;
 }
 main{
     grid-area: prin;
     background-color: #c8fecc;
     position: relative;
+    border-radius: 4px;
+    margin: 4px;
 }
 footer{
     grid-area: roda;
     background-color: #7cb17f;
+    border-radius: 4px;
+    margin: 4px;
+    border: #70a172 3px;
 }
 section{
     grid-area: secn;
@@ -36,6 +45,25 @@ body{
 header img{
     height: 150px;
     width: auto;
+}
+
+p{
+    size: 35px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    text-decoration: none;
+    background-color: #70a172;
+    border-radius: 2px;
+    border: #70a172;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
 @media only screen and (max-width: 820px) {
     body{
