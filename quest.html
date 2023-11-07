@@ -45,10 +45,22 @@
             <button type="button" onclick="calcular_montante()">Calcular</button>
         </form>
 
+        Calcule o lucro <br>
+        a + b = c <br>
+        <form>
+            a: <input type="text" id="valor_a" value="0"> <br>
+            b: <input type="text" id="valor_b" value="0"> <br>
+            <br>
+            c: <input type="text" id="valor_ca" value="0"> <br>
+            <br>
+            <button type="button" onclick="calcular_lucro()">Calcular</button>
+        </form>
+
+
         
         <form>
-            <h4>(Vunesp)Num balancete de uma empresa consta que certo capital foi aplicado a uma taxa de 30% ao ano 
-                durante 8 meses, rendendo juros simples no valor de R$ 192,00. O capital aplicado foi de:
+            <h4><span>1-</span>(Vunesp)Num balancete de uma empresa consta que certo capital foi aplicado a uma taxa de 30% ao ano 
+                durante 8 meses,<br> rendendo juros simples no valor de R$ 192,00. O capital aplicado foi de:
             </h4>
             <input type="radio" name="quest_1" value="errada">A) R$ 288,00.<br>
             <input type="radio" name="quest_1" value="errada">B) R$ 880,00.<br>
@@ -57,18 +69,18 @@
             <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
     
             <h4>Ao completar seus 18 anos e adquirir sua independência financeira, 
-                João decidiu alugar um imóvel. Uma prática bastante comum para o aluguel de imóveis é o uso do devedor 
-                solidário ou então o pagamento de um cheque caução. Ambas as opções são para resguardar quem está alugando o
-                imóvel. A primeira delas consiste em uma terceira pessoa se responsabilizar pelas dívidas caso o locatário 
-                não pague. A segunda é o pagamento, por parte do locatário, de um valor, que fica na conta do locador até o término 
+                João decidiu alugar um imóvel.<br> Uma prática bastante comum para o aluguel de imóveis é o uso do devedor 
+                solidário ou então o pagamento de um cheque caução.<br> Ambas as opções são para resguardar quem está alugando o
+                imóvel.<br> A primeira delas consiste em uma terceira pessoa se responsabilizar pelas dívidas caso o locatário 
+                não pague.<br> A segunda é o pagamento, por parte do locatário, de um valor, que fica na conta do locador até o término 
                 do contrato. Ao final, esse valor é devolvido para o locatário.<br>
                 <br>
             
-                Como não havia ninguém disposto a ser devedor solidário, João optou pela segunda opção, pegando dinheiro emprestado com o seu irmão, José. 
+                Como não havia ninguém disposto a ser devedor solidário, João optou pela segunda opção, pegando dinheiro emprestado com o seu irmão, José.<br> 
                 O empréstimo foi de R$ 3.000,00 e, para que José não ficasse em desvantagem, ele propôs para o seu irmão que
-                 o pagasse com juros simples de 1% a.m. Se, ao final de 1 ano, João pagar a sua dívida com o seu irmão, 
+                 o pagasse com juros simples de 1% a.m. <br>Se, ao final de 1 ano, João pagar a sua dívida com o seu irmão, 
                  o valor pago por ele será de:</h4>
-            <input type="radio" name="quest_2" value="errada">A) R$ 3600,00.<br>
+            <input type="radicalcular_montanteo" name="quest_2" value="errada">A) R$ 3600,00.<br>
             <input type="radio" name="quest_2" value="correta">B) R$ 3360,00.<br>
             <input type="radio" name="quest_2" value="errada">C) R$ 3660,00.<br>
             <input type="radio" name="quest_2" value="errada">D) R$ 3930,00. <br>
@@ -76,7 +88,7 @@
             <p id="resp_correta_2" class="verde"></p><p id="resp_errada_2" class="vermelho"></p>
     
             <h4>Durante quanto tempo um capital deve ser mantido em investimento a 
-            juros simples com taxa de 2% a.m. para que ele gere um montante que seja o dobro do capital investido?</h4>
+            juros simples com taxa de 2% a.m.<br> para que ele gere um montante que seja o dobro do capital investido?</h4>
             <input type="radio" name="quest_3" value="errada">A) 3 anos e 4 meses. <br>
             <input type="radio" name="quest_3" value="errada">B) 3 anos e 6 meses. <br>
             <input type="radio" name="quest_3" value="errada">C) 3 anos e 9 meses.<br>
@@ -87,24 +99,24 @@
             50 meses correspondem a 4 anos e 2 meses.
     
             <h4>(Cespe 2008) No regime de juros simples, determinado capital investido durante 2,5 meses produziu o 
-            montante de R$ 12.000,00. O mesmo capital, investido durante 5 meses, no mesmo regime de juros, 
-            produziu o montante de R$ 14.000,00. Nesse caso, é correto afirmar que esse capital é</h4>
+            montante de R$ 12.000,00.<br> O mesmo capital, investido durante 5 meses, no mesmo regime de juros, 
+            produziu o montante de R$ 14.000,00. <br>Nesse caso, é correto afirmar que esse capital é:</h4>
             <input type="radio" name="quest_4" value="errada">A) inferior a R$ 9.400,00.<br>
             <input type="radio" name="quest_4" value="errada">B) superior a R$ 9.400,00 e inferior a R$ 9.800,00.<br>
             <input type="radio" name="quest_4" value="correta">C) superior a R$ 9.800,00 e inferior a R$ 10.200,00.<br>
             <input type="radio" name="quest_4" value="errada">D) superior a R$ 10.200,00 e inferior a R$ 10.600,00.<br>
             <p id="resp_correta_4" class="verde"></p><p id="resp_errada_4" class="vermelho"></p>
 
-            em 2,5 meses, o juro gerado é de 2.000. Sendo assim, sabemos que o montante é a soma do capital com os juros e que o montante é 12.000, a resposta é 10.000
+            em 2,5 meses, o juro gerado é de 2.000. <br>Sendo assim, sabemos que o montante é a soma do capital com os juros e que o montante é 12.000, a resposta é 10.000
 
-            <h4>Um capital foi aplicado a juros simples com taxa de 5% ao mês, durante cinco meses. Se no fim desse período o juro produzido foi de R$ 152,25, qual foi o montante ao término da aplicação?</h4>
+            <h4>Um capital foi aplicado a juros simples com taxa de 5% ao mês, durante cinco meses.<br> Se no fim desse período o juro produzido foi de R$ 152,25, qual foi o montante ao término da aplicação?</h4>
             <input type="radio" name="quest_5" value="correta">A) R$ 761,25.<br>
             <input type="radio" name="quest_5" value="errada">B) R$590,75.<br>
             <input type="radio" name="quest_5" value="errada">C) R$609,00.<br>
             <input type="radio" name="quest_5" value="errada">D) R$706,12.<br>
             <p id="resp_correta_5" class="verde"></p><p id="resp_errada_5" class="vermelho"></p>
 
-            <h4>(FGV)Um capital aplicado a juros simples produz o montante de R$ 7.200,00 em cinco meses e, em oito meses, esse montante passa a valer R$ 7.680,00.
+            <h4>(FGV)Um capital aplicado a juros simples produz o montante de R$ 7.200,00 em cinco meses e,<br> em oito meses, esse montante passa a valer R$ 7.680,00.
 
                 Nessas condições, a taxa de juros aplicada a esse capital é de:</h4>
             <input type="radio" name="quest_6" value="errada">A) 2,20% a.m.<br>
@@ -113,8 +125,8 @@
             <input type="radio" name="quest_6" value="errada">D) 2,44% a.m. <br>
             <p id="resp_correta_6" class="verde"></p><p id="resp_errada_6" class="vermelho"></p>
 
-            <h4>QNos boletos de contas, além da data de vencimento, há também as informações sobre os juros a serem cobrados caso haja atraso no pagamento 
-            da conta. Uma determinada conta havia informações de que, no caso de atraso, seriam cobrados 2% de multa mais 1% a cada mês de atraso em 
+            <h4>Nos boletos de contas, além da data de vencimento, há também as informações sobre os juros a serem cobrados caso haja atraso no pagamento 
+            da conta.<br> Uma determinada conta havia informações de que, no caso de atraso, seriam cobrados 2% de multa mais 1% a cada mês de atraso em 
             cima do valor inicial da dívida. <br> <br> Se em um determinado período uma conta nessas condições ficou atrasada 
             durante 3 meses e o valor pago por ela foi de R$ 868,35,
             o valor da conta anterior aos juros e à multa é de:</h4>
@@ -124,7 +136,7 @@
             <input type="radio" name="quest_7" value="correta">D) R$827,00. <br>
             <p id="resp_correta_7" class="verde"></p><p id="resp_errada_7" class="vermelho"></p>
 
-            <h4>Para completar a compra de um carro, Júlia pegou emprestado de sua amiga R$ 10.000,00 e pagou, ao final, R$ 12.250,00. Sabendo que a taxa de
+            <h4>Para completar a compra de um carro, Júlia pegou emprestado de sua amiga R$ 10.000,00 e pagou, ao final, R$ 12.250,00.<br> Sabendo que a taxa de
              juros da operação empregada foi 2,5% a.m., quanto tempo Júlia levou para pagar sua amiga?            </h4>
             <input type="radio" name="quest_8" value="errada">A) 6 meses.<br>
             <input type="radio" name="quest_8" value="errada">B) 7 meses.<br>
@@ -132,15 +144,15 @@
             <input type="radio" name="quest_8" value="correta">D) 9 meses.<br>
             <p id="resp_correta_8" class="verde"></p><p id="resp_errada_8" class="vermelho"></p>
 
-            <h4>Qual deve ser o capital aplicado a uma taxa de juros simples de 10% a.a. para que, em 6 meses, renda R$ 217,50 de juro?</h4>
+            <h4>Qual deve ser o capital aplicado a uma taxa de juros simples de 10% a.a.<br> para que, em 6 meses, renda R$ 217,50 de juro?</h4>
             <input type="radio" name="quest_9" value="correta">A) R$ 4350,00.<br>
             <input type="radio" name="quest_9" value="errada">B) R$ 453,00.<br>
             <input type="radio" name="quest_9" value="errada">C) R$ 3.750,00.<br>
             <input type="radio" name="quest_9" value="errada">D) R$ 3.575,00.<br>
             <p id="resp_correta_9" class="verde"></p><p id="resp_errada_9" class="vermelho"></p>
 
-            <h4>Alguns amigos se juntaram para fazer um investimento, e cada um realizou o investimento de R$ 2100,00. Esse dinheiro foi investido pelo organizador e, após 8 meses, todos os membros receberam de volta o seu dinheiro mais o valor do rendimento. 
-            Sabendo que cada um deles recebeu R$ 2604,00, qual foi a taxa de juros ao mês caso esse valor tenha sido investido em um regime de juros simples?</h4>
+            <h4>Alguns amigos se juntaram para fazer um investimento, e cada um realizou o investimento de R$ 2100,00. Esse dinheiro foi investido pelo organizador e,<br> após 8 meses, todos os membros receberam de volta o seu dinheiro mais o valor do rendimento.<br> 
+            Sabendo que cada um deles recebeu R$ 2604,00, <br>qual foi a taxa de juros ao mês caso esse valor tenha sido investido em um regime de juros simples?</h4>
             <input type="radio" name="quest_10" value="errada">A) 2% a.m.<br>
             <input type="radio" name="quest_10" value="correta">B) 3% a.m.<br>
             <input type="radio" name="quest_10" value="errada">C) 4% a.m.<br>

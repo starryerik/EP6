@@ -6,14 +6,14 @@ function calcular_palhaco() {
     var calculo = c*i*t;
 
     if(c == 0 || i == 0 || t == 0 || j == 0 ){
-        alert("não deixe campos em branco")
+        alert("não deixe campos em branco");
     }
     else{
         if(j == calculo){
             alert("correto");
         }
         else{
-            alert("Errado, tente novamente.")
+            alert("Errado, tente novamente.");
         }
     }
     
@@ -23,13 +23,33 @@ function calcular_montante() {
     var cc = valor_cc.value;
     var jj = valor_jj.value;
     var mm = valor_mm.value;
-    var calculo = c + j;
+    var calculo = cc + jj;
+    alert(mm);
 
     if(cc == 0 || jj == 0 || mm == 0){
-        alert("Não deixe campos em brancos.")
+        alert("Não deixe campos em brancos.");
     }
     else{
         if(mm == calculo){
+            alert("Correto");
+        }
+        else{
+            alert("Errado, tente novamente.");
+        }
+    }
+}
+
+function calcular_lucro() {
+    var a = valor_a.value;
+    var b = valor_b.value;
+    var c = valor_ca.value;
+    var calculo = a + b;
+
+    if(a == 0 || b == 0 || c == 0){
+        alert("Não deixe campos em brancos.")
+    }
+    else{
+        if(c == calculo){
             alert("Correto");
         }
         else{
